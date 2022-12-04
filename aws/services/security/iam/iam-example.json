@@ -1,0 +1,18 @@
+{
+  "Version": "",// policy language version
+  "Id": "", //  identifier for the policy
+  "Statement": [
+    {
+      "Sid": "", // identifier for the statement
+      "Effect": "",// whether the statement allows or denies 
+      "Principal": { 
+        "AWS": [] // account/user/role to which the policy is applied. 
+      },
+      "Action": [
+        "", // list of api calls (actions) this policy allows or denies.
+        ""
+      ],
+      "Resource" : [] // list of resources to which the actions are applied to.
+    }
+  ]
+}
